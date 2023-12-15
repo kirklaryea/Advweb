@@ -14,6 +14,8 @@ scraped_para=paragraph.get_text(strip=True)
 print('Scraped paragraph:'+'\n'+ scraped_para)
 
 #Using  regular expression to check that a string matched a certain pattern.
-pattern = r'\w*\w+e+\b'  # Match words ending with the letter e
+pattern = r'\w*\w+e+\b' # Match words ending with the letter e
 pattern_matches = re.findall(pattern, scraped_para)
-print("Words end with the letter \"e\":", pattern_matches)
+#appending the results to a file called 'words.txt'
+with open('words.txt','a') as file:
+    file.write("Words end with the letter 'e':\n" + str(pattern_matches))
