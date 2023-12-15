@@ -1,0 +1,2 @@
+In this program we will be scraping a specific paragraph from the book 'Letting Go'.
+The script retireves the content from the paragraph uses regular experessions to match words ending with letter 'e'
