@@ -1,0 +1,2 @@
+Words end with the letter 'e':
+['gave', 'me', 'the', 'little', 'one', 'He', 'he', 'he', 'became', 'one', 'he', 'everyone', 'He', 'like', 'the', 'because', 'the', 'He', 'voice', 'love', 'the', 'same']
